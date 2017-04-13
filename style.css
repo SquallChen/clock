@@ -1,3 +1,6 @@
+body{
+    background: radial-gradient(#d1d2c9,#b4b2ac);
+}
 .hold{
   display: flex;
   justify-content:center;
@@ -31,10 +34,10 @@
 }
 .left-half{
     position: absolute;
-    left:29px;
-    top:27px;
+    left:28px;
+    top:28px;
     width: 122.5px;
-    height: 246px;
+    height: 245px;
     overflow: hidden;
 }
 .left-piece{
@@ -50,7 +53,7 @@
 }
 .right-half {
     position: absolute;
-    top: 27px;
+    top: 28px;
     left: 150px;
     width: 122.5px;
     height: 245px;
@@ -238,6 +241,4 @@
     content: "";
     display: block;
     position: absolute;
-.hold>div{
-      transition: all .5s;  
 }
